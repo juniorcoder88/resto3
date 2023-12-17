@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "reey";
+  src: url(Reey-Regular.otf);
+}
+::selection {
+  background-color: #777;
+  color: white;
+}
+/*Start navbar */
+nav {
+  background-color: #25285c !important;
+  background-image: url(../image/bg1.png);
+}
+.navbar-collapse {
+  flex-grow: 0 !important;
+}
+.nav-link:hover {
+  color: white;
+}
+.navbar ul {
+  text-align: center;
+}
+.navbar-brand {
+  font-family: reey;
+  font-size: large;
+}
+/* End navbar */
+/* Start Header */
+header {
+  height: calc(100vh - 56px);
+  background-image: url(../image/bg1.png);
+  background-size: cover;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.t1 {
+  font-family: reey;
+  font-size: xx-large;
+}
+.img1 {
+  max-width: 150px;
+}
+@media (max-width: 540) {
+  header .container img {
+    max-width: 150px !important;
+    max-height: 150px !important;
+  }
+}
+
+/* End  Header */
+/* Start Menu */
+.menu {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.menu h2 {
+  font-family: reey !important;
+}
+/* End Menu */
+.menu2 {
+  background-color: #27292c;
+}
+/* Start section */
+.section {
+  background-image: url(../image/bg1.png);
+  background-size: cover;
+}
+/* End section */
+
+.boom {
+  background-image: url(../image/img9.png);
+  background-size: contain;
+}
+/*Start Contact */
+.contact {
+  background-color: #27292c;
+  color: white;
+}
+/*End Contact */
+.aa {
+  right: 0;
+  max-width: 150px;
+  bottom: 0;
+}
+.bb {
+  max-width: 150px;
+  left: 0;
+  top: 0;
+}
+.content {
+  position: relative;
+  z-index: 111 !important;
+}
+.cc {
+  margin-left: -100px;
+  margin-top: -4px;
+}
+.axx {
+  right: 15px;
+  bottom: 15px;
+  background-color: #27292c;
+  z-index: 54654;
+  display: none;
+}
+.axx:hover {
+  background-color: #333;
+}
